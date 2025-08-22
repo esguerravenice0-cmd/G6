@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>GROUP 6 Webpage</title>
+<style>
+  body {
+    background-image: url('bg tech.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: "Calisto MT", serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+  }
+  h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  hr {
+    border: 1px solid white;
+  }
+  .main-image {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .banner-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+    padding: 10px 0;
+  }
+  .banner-track {
+    display: inline-flex;
+    animation: scroll-left 20s linear infinite;
+  }
+  .banner-track img {
+    width: 150px;
+    height: 120px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  @keyframes scroll-left {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .advocacy-section {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  ul {
+    line-height: 1.6;
+    margin-left: 40px;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+
+  <h1>Group 6 Homepage</h1>
+  <hr />
+  <h2><i>Our Advocacy</i></h2>
+
+  <div class="main-image">
+    <img src="medal.jpg" width="330" height="301" alt="Main Image" />
+  </div>
+
+  <div class="banner-wrapper" aria-label="Scrolling images banner">
+    <div class="banner-track" aria-live="off" aria-atomic="true">
+      <img src="im1.jpg" alt="Image 1" />
+      <img src="im2.jpg" alt="Image 2" />
+      <img src="im3.jpg" alt="Image 3" />
+    </div>
+  </div>
+
+  <div class="advocacy-section">
+    <h3>Self-Advocacy: 3 Things to Know for Success</h3>
+    <ul>
+      <li><strong>1. Embrace Individual Learning Styles:</strong><br />
+        Recognize that students absorb information differently — some are visual, others auditory, kinesthetic, or social learners. Incorporate multiple teaching methods to reach every student.
+      </li>
+      <li><strong>2. Be Flexible with Time and Pace:</strong><br />
+        Allow for different learning speeds. Provide options for review, catch-up, and retakes.
+      </li>
+      <li><strong>3. Celebrate Progress, Not Perfection:</strong><br />
+        Focus on effort and growth. Encourage students to see challenges as part of the learning process.
+      </li>
+    </ul>
+  </div>
+
+</body>
+</html>
